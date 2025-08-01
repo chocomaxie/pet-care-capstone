@@ -1,0 +1,62 @@
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #c4b5fd;
+    padding: 20px 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+    width: 800px;
+}
+
+.logo p {
+    font-size: 20px;
+}
+
+.group{
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: red;
+    user-select: none;
+}
+
+.group {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px 40px;
+    width: 900px;
+}
+
+.group .shelter,
+.adopter{
+    height: 120px;
+    -webkit-user-drag: none;
+}
+
+.group h1 {
+    font-size: 90px;
+}
+
+.group:hover {
+    transform: translateY(-10px);
+}
